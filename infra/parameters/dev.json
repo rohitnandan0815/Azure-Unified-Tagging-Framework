@@ -1,0 +1,38 @@
+{
+  "environment": {
+    "value": "dev"
+  },
+  "location": {
+    "value": "eastus"
+  },
+  "skuName": {
+    "value": "Standard_LRS"
+  },
+  "kindName": {
+    "value": "StorageV2"
+  },
+  "tags": {
+    "value": {
+      "project": "cnovate-internal-platform",
+      "app": "catalogsearch1",
+      "env": "dev",
+      "owner": "cnovate",
+      "department": "devops",
+      "costcenter": "55332",
+      "region": "eastus",
+      "criticality": "mission-critical",
+      "confidentiality": "private"
+    }
+  },
+  "storageAccounts": {
+    "value": [
+      { "name": "app1", "accountName": "stdevapp1" },
+      { "name": "app2", "accountName": "stdevapp2" }
+    ]
+  }
+}
+
+
+
+
+
